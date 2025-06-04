@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+  <title>Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap"rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="container">
+    <!-- Typo fixed: nev => nav -->
+    <nav class="navigation" id="navbar">
+      <div class="nav-bar inner flex">
+        <h2><span class="blue">T</span>ravel</h2>
+        <ul class="menu-flex" id="menus">
+          <li><a href="#" class="blue">HOME</a></li>
+          <li><a href="#">Tours</a></li>
+          <li><a href="#">Hotel</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <span class="toggle-btn" onclick="toggle()">&#9776;</span>
+      </div>
+    </nav>
+
+    <div class="wrapper">
+      <div class="banner flex inner">
+        <div class="right">
+          <h1>Discover</h1>
+          <h2>The World</h2>
+          <h3>GET 20% OFF</h3>
+          <h4>Enter Voucher Code <span class="code">TRAVELGO</span></h4>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem, id. Odio, animi. Voluptas inventore maiores praesentium doloremque natus atque adipisci unde aliquid exercitationem!</p>
+          <button class="btn">Get Travel</button>
+          <button class="btn btn1">Read More</button>
+        </div>
+        <div class="left">
+          <img src="img/image1.jpg" alt="Travel Image">
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="four-section inner">
+    <h3>Blog</h3>
+    <h1>Our Latest Blog</h1> <!-- Spelling fixed: Letest => Latest -->
+  </section>
+
+  <div class="boxes flex">
+    <!-- 4 Blog Boxes with better structure -->
+    <!-- Box 1 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image2.jpeg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in New York</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 56</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 45k+ views</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image4.jpg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in Netherlands</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 110</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 10k+ views</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image5.jpg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in to Dubai</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 80</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 40k+ views</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image6.jpg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in Maldives</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 70</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 99k+ views</p></div>
+        </div>
+      </div>
+    </div>
+    
+        <!-- 4 Blog Boxes with better structure -->
+    <!-- Box 1 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image2.jpeg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in New York</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 56</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 45k+ views</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 2 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image4.jpg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in Netherlands</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 110</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 10k+ views</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 3 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image5.jpg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in to Dubai</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 80</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 40k+ views</p></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Box 4 -->
+    <div class="box">
+      <div class="img-box"><img src="img/image6.jpg" alt=""></div>
+      <div class="text">
+        <h4>Travel</h4>
+        <h2>Beautiful place in Maldives</h2>
+        <div class="inner-box flex">
+          <div class="left"><p><i class="fa-regular fa-comment"></i> 70</p></div>
+          <div class="right"><p><i class="fa-regular fa-eye"></i> 99k+ views</p></div>
+        </div>
+      </div>
+    </div>
+    
+    
+  </div>
+  
+  
+  <footer>
+  <div class="foot-panel1">
+    back too top
+  </div>
+  <div class="foot-panel2">
+    <ul>
+      
+      <p>Get to Know Us</p>
+      <a>Careers</a>
+      <a>Blog</a>
+      <a>About Amazon </a>
+      <a>Investor Relations</a>
+      <a>Amazon Devices</a>
+      <a>Amazon Science</a>
+      
+    </ul>
+    
+    <ul>
+      
+      <p>Get to Know Us</p>
+      <a>Careers</a>
+      <a>Blog</a>
+      <a>About Amazon </a>
+      <a>Investor Relations</a>
+      <a>Amazon Devices</a>
+      <a>Amazon Science</a>
+      
+    </ul>
+
+
+  </div>
+  <div class="foot-panel3">
+    <div class="foot-logo"></div>
+  </div>
+  
+  <div class="foot-panel4">
+    <div class="pages">
+      <a>Conditions of
+        Usev </a>
+      <a>Privacy Notic
+      </a>
+      <a>Consumer Health Data Privacy Disclosure</a>
+      <a>Your Ads Privacy Choices</a>
+      <div class="copyright">
+        © 1996-2025, Amazon.com, Inc. or its affiliates
+      </div>
+      
+      
+      
+    </div>
+    
+  </div>
+</footer>
+  <script src="index.js"></script>
+</body>
+</html>
